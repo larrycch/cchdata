@@ -1,0 +1,80 @@
+#+TITLE:
+# Place author here
+#+AUTHOR:
+# Place email here
+#+EMAIL: 
+# Call borgauf/insert-dateutc.1 here
+#+DATE: 
+# #+Filetags: :SAGA +TAGS: experiment_nata(e) idea_nata(i)
+# #chem_nata(c) logs_nata(l) y_stem(y)
+#+LANGUAGE:  en
+# #+INFOJS_OPT: view:showall ltoc:t mouse:underline
+# #path:http://orgmode.org/org-info.js +HTML_HEAD: <link
+# #rel="stylesheet" href="../data/stylesheet.css" type="text/css">
+#+HTML_HEAD: <link rel="stylesheet" href="./wuth.css" type="text/css">
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+EXPORT_FILE_NAME: index.html
+#+OPTIONS: H:15 num:15 toc:nil \n:nil @:t ::t |:t _:{} *:t ^:{} prop:nil
+# #+OPTIONS: prop:t # This makes MathJax not work +OPTIONS:
+# #tex:imagemagick # this makes MathJax work
+#+OPTIONS: tex:t num:nil
+# This also replaces MathJax with images, i.e., don’t use.  #+OPTIONS:
+# tex:dvipng
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [american]
+# Setup tikz package for both LaTeX and HTML export:
+#+LATEX_HEADER: \usepackqqqage{tikz}
+#+LATEX_HEADER: \usepackage{commath}
+#+LaTeX_HEADER: \usepackage{pgfplots}
+#+LaTeX_HEADER: \usepackage{sansmath}
+#+LaTeX_HEADER: \usepackage{mathtools}
+# #+HTML_MATHJAX: align: left indent: 5em tagside: left font:
+# #Neo-Euler
+#+PROPERTY: header-args:latex+ :packages '(("" "tikz"))
+#+PROPERTY: header-args:latex+ :exports results :fit yes
+#+STARTUP: showall
+#+STARTUP: align
+#+STARTUP: indent
+# This makes MathJax/LaTeX appear in buffer (UTF-8)
+#+STARTUP: entitiespretty
+# #+STARTUP: logdrawer # This makes pictures appear in buffer
+#+STARTUP: inlineimages
+#+STARTUP: fnadjust
+
+#+OPTIONS: html-style:nil
+# #+BIBLIOGRAPHY: ref plain
+
+@@html:<label for="mn-demo" class="margin-toggle"></label>
+<input type="checkbox" id="mn-demo" class="margin-toggle">
+<span class="marginnote">@@
+[[file:images/InlandSeaDType4.png]]
+\\
+\\
+/Correspondence/ \\
+WUTHERING.UK \\
+P.O. Box 1302 \\
+Grand Marais, MN, 55604 \\
+USA \\
+\\
+\\
+@@html:</span>@@
+
+* 
+#+begin_export html
+<img src="./images/Wuthering10.png" alt="Title" class="center">
+<span class="cap">Summer wuthering, July, 2023</span>
+#+end_export
+
+* Late July, 2023, Grand Marais, Minnesota
+
+Your first listening assignment:
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GJgXdSVFnJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
+...but after what I'm about to say, this music will seem perhaps an
+odd choice. Nonetheless...
+
+
